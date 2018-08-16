@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+section{
+    background-color: #009588;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    position: relative;
+}
+
+section > div{
+    position: absolute;
+    top: calc(50% - 20vh);
+    left: 25%;    
+    width: 50%;
+    
+}
+section article{
+    margin: 0 auto;
+    width: 100%;
+    padding: 3% 5%;
+    border-radius: 3px;
+    background-color: white;
+    box-shadow: 0 3px 3px 3px rgba(0,0,0,.2); 
+    
+     
+}
+
+section article:nth-child(1){
+    position: absolute;
+    z-index: 10;
+    min-height: 20vh;
+}
+
+section article:nth-child(2){    
+    margin-top: 30vh;
+    margin-left: 2.5%;
+    height:  5vh;   
+    width: 95%;
+    padding-top:4vh ;
+    padding-bottom: 0;
+    text-align: center;
+}
+
+section div article > div{
+    float: right;
+    width: 60%;
+}
+section div article span >img{
+    width: 15vw;
+    height:100%;
+    border-radius: 50%;
+    vertical-align: center;
+}
+
+section div article > div h4{
+    color: #009588;
+    margin: 0;
+    font-style: italic;
+}
+section div article > div h2{    
+    margin: 0;
+    font-size: 2rem;
+}
+
+section div article:nth-child(2) img{
+    width: 30px;
+    height: 30px;    
+}
+
+
